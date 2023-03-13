@@ -15,7 +15,6 @@ namespace BinaryFormatterIssue
             var eBytesString = BitConverter.ToString(eBytes);
             Debug.WriteLine(eBytesString); // 82-A9-1C-33-C0
 
-            
             var notEmpty = new NotEmptyClass();
             var neBytes = BinaryFormatter.Serialize(notEmpty);
             var neBytesString = BitConverter.ToString(neBytes);

@@ -29,7 +29,7 @@
       <HintPath>..\packages\nanoFramework.CoreLibrary.1.14.2\lib\mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Serialization">
-      <HintPath>..\packages\nanoFramework.System.Runtime.Serialization.1.0.20\lib\System.Runtime.Serialization.dll</HintPath>
+      <HintPath>..\packages\nanoFramework.System.Runtime.Serialization.1.0.23\lib\System.Runtime.Serialization.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
