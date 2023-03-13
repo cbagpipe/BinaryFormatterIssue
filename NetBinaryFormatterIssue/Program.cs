@@ -17,8 +17,8 @@ namespace NetBinaryFormatterIssue
 
             var formatter2 = new nanoFramework.Serialization.Helper.BinaryFormatter();
             var neBytes2 = formatter2.Serialize(notEmpty);
-            var neBytesString = BitConverter.ToString(neBytes2);
-            Debug.WriteLine(neBytesString); // 8E-9C-2C-7C-80-00-00-00-00
+            var neBytesString2 = BitConverter.ToString(neBytes2);
+            Debug.WriteLine(neBytesString2); // 8E-9C-2C-7C-80-00-00-00-00
 
             var formatter3 = new nanoFramework.Serialization.Helper.BinaryFormatter();
             var neBytes3 = formatter3.Serialize(notEmpty);
